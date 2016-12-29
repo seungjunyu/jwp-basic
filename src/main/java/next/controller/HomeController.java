@@ -7,6 +7,7 @@ import next.dao.QuestionDao;
 import core.mvc.AbstractController;
 import core.mvc.ModelAndView;
 
+//@WebFilter("/*")
 public class HomeController extends AbstractController {
     private QuestionDao questionDao = new QuestionDao();
 
